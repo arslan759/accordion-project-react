@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 const Accordionn = ({ question }) => {
   return (
-    <Accordion>
+    <Accordion className="container">
       {question.map((item) => {
         return (
           <Accordion.Item
